@@ -5,12 +5,15 @@ Glioblastoma Multiforme (GBM) is the most common and aggressive primary adult br
 
 Peritumoral edema is a feature observed on MRI scans of aggressive brain tumors, such as glioblastoma and higher-grade adult diffuse gliomas. The presence of edema indicates the tumor's infiltrative nature and rapid growth, which can disrupt the blood-brain barrier and cause fluid accumulation in the surrounding brain tissue. In contrast, low-grade gliomas do not exhibit significant peritumoral edema due to their less aggressive growth pattern and limited ability to disrupt the blood-brain barrier. 
 
-**Glioblastoma**
-![glioblastoma](https://github.com/user-attachments/assets/64893dd2-0a17-4a3d-aa29-0559e6806ab8)
-**High-grade diffuse glioma**
-![diffuse_glioma](https://github.com/user-attachments/assets/1254b16d-50ab-4e23-a7c7-77060df83db3)
-**Low grade glioma**
-![lowgrade](https://github.com/user-attachments/assets/efa6f142-4f8b-48a5-b2b3-10d56c6ac48b)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/64893dd2-0a17-4a3d-aa29-0559e6806ab8" alt="Glioblastoma" width="300" height="300">
+  <img src="https://github.com/user-attachments/assets/1254b16d-50ab-4e23-a7c7-77060df83db3" alt="High-grade diffuse glioma" width="300" height="300">
+  <img src="https://github.com/user-attachments/assets/88c2a23e-38a5-46de-bdae-9414fc74aab2" alt="Low grade glioma" width="300" height="300">
+</p>
+
+<p align="center">
+  <em>Left: Glioblastoma, Middle: High-grade diffuse glioma, Right: Low grade glioma</em>
+</p>
 
 
 We conducted a retrospective study using the BraTS 2021 (1,251 subjects) and BraTS 2020 (235 subjects) datasets, both containing tumor segmentations, with the latter also including overall survival data (median: 370 days; 49% died within one year).

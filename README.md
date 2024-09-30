@@ -27,7 +27,7 @@ We developed a unified DL-based image reconstruction model to extract features f
 </p>
 
 <p align="center">
-  <em>12 input images for a sample patient for training reconstruction model</em>
+  <em>12 input images for a sample patient for training reconstruction model: Tumor, Tumor + 5mm dilation, Tumor + 10mm dilation</em>
 </p>
 
 Tumor reconstruction was trained by SwinUnetR on BRATS2021, using a comprehensive loss combining Mean Squared Error (MSE) and Structural Similarity Index (SSIM). The image feature vector from tumor reconstruction was fed into a separate, fully connected network for survival prediction. We trained and evaluated three survival models with the same architectures and patients but varying ROIs. The models were trained and evaluated on the BraTS 2020 dataset with an 80/20 split for training/validation and blinded testing, using the logistic hazard as the loss function. The survival prediction models were evaluated using the time-dependent concordance index (Ctd) and area under the receiver operating characteristic curve (AUC) at one year.
@@ -36,5 +36,7 @@ Of 47 patients in the blinded test set, 23 died in the first year of diagnosis (
 
 While no significant differences were observed among the three ROIs, the results suggest that incorporating analysis of the PBZ into DL models can enhance prognostic performance for GBM, with the 5 mm surrounding tissue outperforming the 1 cm tissue. Further independent validation of these findings should be performed using additional external GBM patient datasets. As tumor segmentation is crucial for this study, future work should investigate the impact of minor variations in tumor segmentation on model performance.
 
-Folders:
+## Folders:
 The code starting from the Tumor Reconstruction folder is where tumor reconstruction models were trained. The best model for tumor reconstruction is saved here. Then, in the Image Feature Extraction folder, the features of the images were extracted. Also, the features for 3 ROIs are saved in this folder. In the Survival Analysis folder, three survival models were trained to compare 3 ROIs. The three survival models are also saved here.
+
+The requirements for running the files are in the requirements.txt.

@@ -12,7 +12,7 @@ Peritumoral edema is a feature observed on MRI scans of aggressive brain tumors,
 </p>
 
 <p align="center">
-  <em>Left: Glioblastoma, Middle: High-grade diffuse glioma, Right: Low grade glioma</em>
+  <em>Glioblastoma, High-grade diffuse glioma, Low grade glioma</em>
 </p>
 
 

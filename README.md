@@ -4,6 +4,7 @@
 Glioblastoma Multiforme (GBM) is the most common and aggressive primary adult brain tumor, with a median overall survival of 15 months. The peritumoral brain zone (PBZ), the region surrounding the GBM, may be associated with tumor infiltration and aggressiveness and has been recognized as clinically and prognostically important. This study investigates quantitative imaging analysis of the PBZ and its impact on survival in GBM using deep learning (DL).
 
 Peritumoral edema is a feature observed on MRI scans of aggressive brain tumors, such as glioblastoma and higher-grade adult diffuse gliomas. The presence of edema indicates the tumor's infiltrative nature and rapid growth, which can disrupt the blood-brain barrier and cause fluid accumulation in the surrounding brain tissue. In contrast, low-grade gliomas do not exhibit significant peritumoral edema due to their less aggressive growth pattern and limited ability to disrupt the blood-brain barrier. 
+
 **Glioblastoma**
 ![glioblastoma](https://github.com/user-attachments/assets/64893dd2-0a17-4a3d-aa29-0559e6806ab8)
 **High-grade diffuse glioma**
